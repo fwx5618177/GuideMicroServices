@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  web:
+    restart: always
+    image: nodepm2:8
+    ports:
+    - "80:3019"
+    volumes:
+    - /home/docker/data/app/web:/app
+    environment:
+    - APP=bin/www
+    - PM2PARAM=-i 0
