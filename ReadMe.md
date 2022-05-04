@@ -2,15 +2,22 @@
 [TOC]
 
 # Node微服务
+- [x] seneca
+- [x] http -> RPC
+- [x] 部署
+- [x] DB
+- [x] [smf-开箱即用的seneca微服务](https://zhuanlan.zhihu.com/p/111076994)
 
 技术栈：
 - Seneca 微服务
-- PM2
+- PM2: 部署和日志查看
 - TDD Mocha， Chai
-- Mock Sinon
-- DOC Swagger
+- Mock: Sinon
+- DOC: Swagger
 - 监控服务 Keymetrics
-- 部署
+- 部署: PM2 + dockerfile
+- 同类推荐: [Moleculer](https://moleculer.services/)
+- 开箱即用的: [smf](https://github.com/krawa76/smf)
 
 # 具体内容
 1. 微服务概念

@@ -1,0 +1,27 @@
+const Config = function() {}
+
+const Protocol = 'http'
+
+const ServiceList = {
+    users: {
+        name: 'users',
+        port: 3001,
+    },
+    roles: {
+        name: 'roles',
+        port: 3002,
+    },
+    articles: {
+        name: 'articles',
+        port: 3003,
+    },
+    store: {
+        name: 'store',
+        port: 3004,
+    },
+}
+
+Config.prototype.Protocol = Protocol
+Config.prototype.ServiceList = ServiceList
+
+module.exports = new Config()
