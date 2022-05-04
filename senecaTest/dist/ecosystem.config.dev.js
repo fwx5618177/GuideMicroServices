@@ -17,11 +17,12 @@ module.exports = {
     name: 'articles',
     script: './microService/articles/server.js',
     watch: ['./microService/articles']
-  }, {
-    name: 'data',
-    script: './microService/data/server.js',
-    watch: ['./microService/data']
-  }],
+  } // {
+  //   name: 'data',
+  //   script: './microService/data/server.js',
+  //   watch: ['./microService/data']
+  // },
+  ],
   deploy: {
     production: {
       user: 'fwx',
