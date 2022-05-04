@@ -30,7 +30,7 @@ module.exports = {
       repo: 'https://github.com/fwx5618177/GuideMicroServices.git',
       path: '/home/fwx/NodeMicroServicesTest',
       'pre-deploy-local': '',
-      'post-deploy': 'cd /home/fwx/NodeMicroServicesTest/current/NodeMicroService && npm install && pm2 reload ecosystem.config.js --env production',
+      'post-deploy': 'cd ./NodeMicroService && npm install && pm2 reload ecosystem.config.js --env production',
       'pre-setup': ''
     }
   }
