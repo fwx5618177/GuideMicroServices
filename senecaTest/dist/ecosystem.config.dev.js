@@ -31,7 +31,7 @@ module.exports = {
       path: '/home/fwx/NodeMicroServicesTest',
       'pre-deploy-local': '',
       'pre-deploy': 'npm -v',
-      'post-deploy': 'cd ./NodeMicroService && npm install && pm2 reload ecosystem.config.js --env production',
+      'post-deploy': 'cd ./senecaTest && npm install && pm2 reload ecosystem.config.js --env production',
       'pre-setup': ''
     }
   }
