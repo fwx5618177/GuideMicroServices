@@ -1,7 +1,7 @@
 目录
 [TOC]
 
-# Node微服务
+# ScNode微服务
 - [x] seneca
 - [x] http -> RPC
 - [x] 部署
@@ -14,7 +14,7 @@
 - TDD Mocha， Chai
 - Mock: Sinon
 - DOC: Swagger
-- 监控服务 Keymetrics
+- 监控服务 Keymetrics, NewRelic
 - 部署: PM2 + dockerfile
 - 同类推荐: [Moleculer](https://moleculer.services/)
 - 开箱即用的: [smf](https://github.com/krawa76/smf)
