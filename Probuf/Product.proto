@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Ecommerce;
+
+message Product {
+    bool avaliable = 1;
+    string name = 2;
+    string desc = 3;
+    float price = 4;
+    bytes binData = 5;
+}

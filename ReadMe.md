@@ -11,7 +11,7 @@
 技术栈：
 - Seneca 微服务
 - PM2: 部署和日志查看
-- TDD Mocha， Chai
+- TDD Mocha, Chai
 - Mock: Sinon
 - DOC: Swagger
 - 监控服务 Keymetrics, NewRelic

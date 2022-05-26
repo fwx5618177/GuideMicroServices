@@ -1,0 +1,28 @@
+{
+  "nested": {
+    "Ecommerce": {
+      "nested": {
+        "Product": {
+          "fields": {
+            "avaliable": {
+              "type": "bool",
+              "id": 1
+            },
+            "name": {
+              "type": "string",
+              "id": 2
+            },
+            "desc": {
+              "type": "string",
+              "id": 3
+            },
+            "price": {
+              "type": "float",
+              "id": 4
+            }
+          }
+        }
+      }
+    }
+  }
+}

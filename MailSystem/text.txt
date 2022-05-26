@@ -1,0 +1,7 @@
+[ 'beep ESMTP Postfix (Ubuntu)' ]
+{ helo: 250,
+  from: 250,
+  to: 250,
+  data: 354,
+  message: 250,
+  quit: 221 }
