@@ -1,12 +1,24 @@
 目录
 [TOC]
 
-# ScNode微服务
+# Node微服务
 - [x] seneca
 - [x] http -> RPC
 - [x] 部署
 - [x] DB
 - [x] [smf-开箱即用的seneca微服务](https://zhuanlan.zhihu.com/p/111076994)
+
+# 推荐文章
+- [NodeJs服务注册与服务发现实现](https://juejin.cn/post/6844903758338457607)
+- [微服务的扩展](https://www.bookstack.cn/read/Nodejs-Roadmap/fc6f625ad132c042.md)
+- [node rpc 服务发现](https://toutiao.io/posts/de5i7p/preview)
+- [基于nodejs的微服务的注册与发现机制实现的调研](https://github.com/abeet/Blog/issues/31)
+- [Node.js微服务框架（Moleculer）](https://juejin.cn/post/6882685336829296648)
+
+# 规划
+- 框架
+- 自己逐步搭建微服务
+- 新增和修改具体的微服务服务
 
 技术栈：
 - Seneca 微服务
